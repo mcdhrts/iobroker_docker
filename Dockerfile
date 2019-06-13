@@ -1,4 +1,4 @@
-FROM raspbian/stretch
+FROM arm64v8/ubuntu
 
 #RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 RUN sudo apt-get install nodejs npm node-semver
