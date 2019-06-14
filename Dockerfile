@@ -1,4 +1,4 @@
-FROM balenalib/rpi-raspbian
+FROM balenalib/raspberrypi3
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 RUN sudo apt-get install nodejs npm node-semver
