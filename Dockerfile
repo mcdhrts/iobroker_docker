@@ -1,7 +1,7 @@
-FROM arm32v7/node:8
+FROM balenalib/rpi-raspbian
 
-#RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-#RUN sudo apt-get install nodejs npm node-semver
+RUN curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+RUN sudo apt-get install nodejs npm node-semver
 #RUN apt-get install -y build-essential libavahi-compat-libdnssd-dev libudev-dev libpam0g-dev nodejs
 
 RUN mkdir -p /opt/iobroker/
